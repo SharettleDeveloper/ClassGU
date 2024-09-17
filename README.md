@@ -24,5 +24,7 @@ URL: https://classgu.sharettle.com
 背景変更：背景を好きな画像に変更できる。
 PWA : モバイル、デスクトップでアプリとして利用可能
 
-・
+
 ![スクリーンショット 2024-09-18 3 01 00（2）](https://github.com/user-attachments/assets/debd105f-7125-4d9e-a56f-3f769e76911c)
+
+ダッシュボードはできるだけシンプルにしました。
