@@ -2,7 +2,7 @@
 
 このプロジェクトは Next.js を使用して作成された大学生のための Web アプリケーションです。ユーザーはこのアプリを通して授業の時間割を管理したり、課題を共有してわからない問題についてを他のユーザーの知見を得ることができます。
 
-URL: https://classgu.sharettle.com
+URL: https://classgu.sharettle.com  
 
 使用技術
 フロントエンド: Next.js, React, MUI  
@@ -11,7 +11,7 @@ URL: https://classgu.sharettle.com
 データベース: Firebase Firestore  
 認証: Firebase Authentication  
 バージョン: Next.js 14.2.5  
-
+  
 
 
 機能一覧  
@@ -24,6 +24,8 @@ URL: https://classgu.sharettle.com
 背景変更：背景を好きな画像にカスタマイズできます。位置や大きさも変更できます
 PWA : モバイル、デスクトップでアプリとして利用可能  
 
+
+    
 
 開発の目的:  
 大学では、先輩などとのつながりがないと授業に関する情報を得るのが難しいことが多く、  
