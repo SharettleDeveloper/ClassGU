@@ -1,0 +1,23 @@
+{
+    "name": "ClassGU by Sharettle",
+    "short_name": "ClassGU",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "description": "ClassGU is crafted for Gifu University Students",
+    "orientation": "any",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

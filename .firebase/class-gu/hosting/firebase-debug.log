@@ -1,0 +1,98 @@
+[debug] [2024-08-17T18:00:58.215Z] ----------------------------------------------------------------------
+[debug] [2024-08-17T18:00:58.216Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2024-08-17T18:00:58.216Z] CLI Version:   13.14.2
+[debug] [2024-08-17T18:00:58.216Z] Platform:      darwin
+[debug] [2024-08-17T18:00:58.216Z] Node Version:  v20.12.2
+[debug] [2024-08-17T18:00:58.216Z] Time:          Sun Aug 18 2024 03:00:58 GMT+0900 (日本標準時)
+[debug] [2024-08-17T18:00:58.216Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-17T18:00:58.251Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-17T18:00:58.251Z] > authorizing via signed-in user (developer@sharettle.com)
+[debug] [2024-08-17T18:00:58.253Z] [iam] checking project class-gu for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-08-17T18:00:58.255Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/class-gu:testIamPermissions [none]
+[debug] [2024-08-17T18:00:58.255Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/class-gu:testIamPermissions x-goog-quota-user=projects/class-gu
+[debug] [2024-08-17T18:00:58.255Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/class-gu:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-08-17T18:00:58.561Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/class-gu:testIamPermissions 200
+[debug] [2024-08-17T18:00:58.561Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/class-gu:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-08-17T18:00:58.562Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/class-gu [none]
+[debug] [2024-08-17T18:00:59.011Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/class-gu 200
+[debug] [2024-08-17T18:00:59.011Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/class-gu {"projectId":"class-gu","projectNumber":"849841337368","displayName":"Class-GU","name":"projects/class-gu","resources":{"hostingSite":"class-gu","storageBucket":"class-gu.appspot.com","locationId":"asia-northeast1"},"state":"ACTIVE","etag":"1_c1c55600-4372-431a-98fd-90817bf929a7"}
+[debug] [2024-08-17T18:00:59.808Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/class-gu/sites pageToken=&pageSize=10
+[debug] [2024-08-17T18:01:00.541Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/class-gu/sites 200
+[debug] [2024-08-17T18:01:00.541Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/class-gu/sites {"sites":[{"name":"projects/class-gu/sites/class-gu","defaultUrl":"https://class-gu.web.app","appId":"1:849841337368:web:22ba3476d680bc0400ff6d","type":"DEFAULT_SITE"}]}
+[debug] [2024-08-17T18:01:00.542Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:849841337368:web:22ba3476d680bc0400ff6d/config [none]
+[debug] [2024-08-17T18:01:01.542Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:849841337368:web:22ba3476d680bc0400ff6d/config 200
+[debug] [2024-08-17T18:01:01.542Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:849841337368:web:22ba3476d680bc0400ff6d/config {"projectId":"class-gu","appId":"1:849841337368:web:22ba3476d680bc0400ff6d","storageBucket":"class-gu.appspot.com","locationId":"asia-northeast1","apiKey":"AIzaSyAneuAMMtbBTWg5NDCfRkVG-omGi1TEQUk","authDomain":"class-gu.firebaseapp.com","messagingSenderId":"849841337368","measurementId":"G-1QTNC2Z9B2"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-08-17T18:01:03.276Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/class-gu/sites/class-gu [none]
+[debug] [2024-08-17T18:01:03.621Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/class-gu/sites/class-gu 200
+[debug] [2024-08-17T18:01:03.621Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/class-gu/sites/class-gu {"name":"projects/class-gu/sites/class-gu","defaultUrl":"https://class-gu.web.app","appId":"1:849841337368:web:22ba3476d680bc0400ff6d","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.5
+
+[info]   - Environments: .env
+
+
+[info]    Creating an optimized production build ...
+
+[info] > [PWA] Compile server
+
+[info] > [PWA] Compile server
+
+[info] > [PWA] Compile client (static)
+
+[info] > [PWA] Auto register service worker with: /Users/raimumiwa/Desktop/DEVELOP/classgu/node_modules/next-pwa/register.js
+
+[info] > [PWA] Service worker: /Users/raimumiwa/Desktop/DEVELOP/classgu/public/sw.js
+> [PWA]   url: /sw.js
+> [PWA]   scope: /
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/10) ...
+
+[info]    Generating static pages (2/10) 
+
+[info]    Generating static pages (4/10) 
+
+[info]    Generating static pages (7/10) 
+
+[info]  ✓ Generating static pages (10/10)
+
+[info]    Finalizing page optimization ...
+
+[info]    Collecting build traces ...
+
+[info] 
+
+[info] Route (app)                              Size     First Load JS
+┌ ○ /                                    6.23 kB         241 kB
+├ ○ /_not-found                          871 B            88 kB
+├ ○ /apple-icon.png                      0 B                0 B
+├ ○ /Class                               9.42 kB         279 kB
+├ ○ /dashboard                           43.3 kB         318 kB
+├ ○ /login                               130 kB          388 kB
+└ ○ /ShareManage                         22.3 kB         291 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/23-25cee9e66a8f628e.js        31.5 kB
+  ├ chunks/fd9d1056-b5397b5edf30a95b.js  53.6 kB
+  └ other shared chunks (total)          1.93 kB
+
+
+[info] 
+○  (Static)  prerendered as static content
+
+
