@@ -12,6 +12,8 @@ URL: https://classgu.sharettle.com
 認証: Firebase Authentication
 バージョン: Next.js 14.2.5
 
+
+
 機能一覧
 ユーザー認証: Email とパスワードでログイン　大学のアドレスを持っているユーザーのみ新規登録可能
 ダッシュボード: 時間割管理、プロフィール変更
@@ -23,3 +25,4 @@ URL: https://classgu.sharettle.com
 PWA : モバイル、デスクトップでアプリとして利用可能
 
 ・
+![スクリーンショット 2024-09-18 3 01 00（2）](https://github.com/user-attachments/assets/debd105f-7125-4d9e-a56f-3f769e76911c)
