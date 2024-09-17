@@ -25,17 +25,23 @@ URL: https://classgu.sharettle.com
 PWA : モバイル、デスクトップでアプリとして利用可能  
 
 
-![スクリーンショット 2024-09-18 3 01 00（2）](https://github.com/user-attachments/assets/debd105f-7125-4d9e-a56f-3f769e76911c)
 ダッシュボード  
+![スクリーンショット 2024-09-18 3 01 00（2）](https://github.com/user-attachments/assets/debd105f-7125-4d9e-a56f-3f769e76911c)
 
-ダッシュボードはできるだけシンプルにしました。ボタンの色とその機能の画面の色を統一させて初めて使う方ができるだけ覚えやすいように工夫しました。
+ダッシュボードはできるだけシンプルにしました。ボタンの色とその機能の画面の色を統一させて初めて使う方ができるだけ覚えやすいように工夫しました。　　
 
+  　　
+My時間割
 ![スクリーンショット 2024-09-18 3 13 46（2）](https://github.com/user-attachments/assets/1dfc735c-c749-4d5e-a7fa-def67c38f383)
 
-My時間割  
-![スクリーンショット 2024-09-18 3 13 46（2）](https://github.com/user-attachments/assets/ba953691-ca7b-4366-9e6d-3d4deec1d39e)
-![スクリーンショット 2024-09-18 3 17 46](https://github.com/user-attachments/assets/4071bd85-3bc9-4228-9a9f-ebd1f87c79fb)
-編集モードでは　授業名が長いときに自分でわかるように短くしたり曜日や時限を変更できます。
+
+![スクリーンショット 2024-09-18 3 17 31（2）](https://github.com/user-attachments/assets/b9d11b44-2190-4725-81f9-5679187a0a41)
+編集モードでは　授業名が長いときに自分でわかるように短くしたり曜日や時限を変更できます。  
+
+
+検索機能
 ![スクリーンショット 2024-09-18 3 13 30（2）](https://github.com/user-attachments/assets/9fa10c38-5b6a-4d03-a6cf-59e731b0da4e)
-検索
+見たい授業をいち早く検索できるように学年、学期、曜日などさまざまフィルター機能をつけました。
+
+
 
