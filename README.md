@@ -3,9 +3,9 @@
 このプロジェクトは Next.js を使用して作成された大学生のための Web アプリケーションです。ユーザーはこのアプリを通して授業の時間割を管理したり、課題を共有してわからない問題についてを他のユーザーの知見を得ることができます。
 
 URL: https://classgu.sharettle.com  
-ゲストユーザー
-ログインID: guest.user
-パスワード: guest.user
+ゲストユーザー  
+ログインID: guest.user  
+パスワード: guestuser  
 
 使用技術
 フロントエンド: Next.js, React, MUI  
