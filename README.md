@@ -53,6 +53,11 @@ My時間割
 ![スクリーンショット 2024-09-18 3 26 14（2）](https://github.com/user-attachments/assets/945ca86d-5eb7-42bf-8379-39db06735e64)
 
 このように授業の情報を取得することができます。
+　　
+　　
+
+授業情報 & (課題など)共有画面
+![スクリーンショット 2024-09-18 3 31 41（2）](https://github.com/user-attachments/assets/2e389656-f8f0-42f9-863b-dd07d99264c3)
 
 
 
