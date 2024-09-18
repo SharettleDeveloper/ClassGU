@@ -9,8 +9,8 @@ URL: https://classgu.sharettle.com
 
 使用技術
 フロントエンド: Next.js, React, MUI  
-インフラ: lolipop レンタルサーバー  
-バックエンド: PHP  
+ホスティング: lolipop レンタルサーバー  
+バックエンド: Firebase PHP  
 データベース: Firebase Firestore  
 認証: Firebase Authentication  
 バージョン: Next.js 14.2.5  
