@@ -16,7 +16,7 @@ URL: https://classgu.sharettle.com
 バージョン: Next.js 14.2.5    
 
 
-使用言語
+使用言語  
 TypeScript
 62.1%
  
