@@ -13,7 +13,12 @@ URL: https://classgu.sharettle.com
 バックエンド: Firebase PHP  
 データベース: Firebase Firestore  
 認証: Firebase Authentication  
-バージョン: Next.js 14.2.5  
+バージョン: Next.js 14.2.5    
+
+
+使用言語
+TypeScript
+
   
 
 
