@@ -18,8 +18,13 @@ URL: https://classgu.sharettle.com
 
 使用言語
 TypeScript
-
-  
+62.1%
+ 
+HTML
+37.6%
+ 
+JavaScript
+0.3%
 
 
 機能一覧  
